@@ -19,8 +19,21 @@
 		D1938A792042D72F001FF89E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1938A782042D72F001FF89E /* XCTest.framework */; };
 		D1938A7A2042D72F001FF89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1938A592042D72E001FF89E /* Foundation.framework */; };
 		D1938A7B2042D72F001FF89E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1938A5D2042D72E001FF89E /* UIKit.framework */; };
-		D1938A832042D72F001FF89E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1938A812042D72F001FF89E /* InfoPlist.strings */; };
-		D1938A852042D72F001FF89E /* SQLITETests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1938A842042D72F001FF89E /* SQLITETests.m */; };
+		D1938A8F2042D760001FF89E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1938A8E2042D760001FF89E /* libsqlite3.dylib */; };
+		D1938A922042DE7C001FF89E /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1938A912042DE7C001FF89E /* secondViewController.m */; };
+		D1938A962042E590001FF89E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1938A952042E590001FF89E /* 2.png */; };
+		D1938A9C2042E68E001FF89E /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1938A9B2042E68E001FF89E /* tableViewController.m */; };
+		D1953C8F2045808500E7ADFD /* UserTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D1953C8E2045808500E7ADFD /* UserTable.m */; };
+		D19723D12046F7EE009A52A6 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D19723D02046F7EE009A52A6 /* MyAnnotation.m */; };
+		D19842212046DAE100A04C53 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19842202046DAE100A04C53 /* MapKit.framework */; };
+		D1993B962044235E00DFCEAF /* UserBean.m in Sources */ = {isa = PBXBuildFile; fileRef = D1993B952044235E00DFCEAF /* UserBean.m */; };
+		D1A401F42046D5BD00370AD2 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A401F32046D5BD00370AD2 /* 5.jpg */; };
+		D1A401F72046D73C00370AD2 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A401F62046D73C00370AD2 /* MapController.m */; };
+		D1A8819020439932003BE0FB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A8818F20439932003BE0FB /* 1.jpg */; };
+		D1A8819220439951003BE0FB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A8819120439951003BE0FB /* 3.jpg */; };
+		D1A8819420439960003BE0FB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A8819320439960003BE0FB /* 4.jpg */; };
+		D1A881962043996F003BE0FB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A881952043996F003BE0FB /* 6.jpg */; };
+		D1E07EDA2043188800296C3F /* dbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E07ED92043188800296C3F /* dbManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +63,29 @@
 		D1938A712042D72F001FF89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1938A772042D72F001FF89E /* SQLITETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLITETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1938A782042D72F001FF89E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D1938A802042D72F001FF89E /* SQLITETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLITETests-Info.plist"; sourceTree = "<group>"; };
-		D1938A822042D72F001FF89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D1938A842042D72F001FF89E /* SQLITETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLITETests.m; sourceTree = "<group>"; };
+		D1938A8E2042D760001FF89E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D1938A902042DE7C001FF89E /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		D1938A912042DE7C001FF89E /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		D1938A952042E590001FF89E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D1938A9A2042E68E001FF89E /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		D1938A9B2042E68E001FF89E /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		D1953C8D2045808500E7ADFD /* UserTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTable.h; sourceTree = "<group>"; };
+		D1953C8E2045808500E7ADFD /* UserTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTable.m; sourceTree = "<group>"; };
+		D1953C902045919600E7ADFD /* SetImag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetImag.h; sourceTree = "<group>"; };
+		D19723CF2046F7EE009A52A6 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		D19723D02046F7EE009A52A6 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		D19842202046DAE100A04C53 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D1993B942044235E00DFCEAF /* UserBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBean.h; sourceTree = "<group>"; };
+		D1993B952044235E00DFCEAF /* UserBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBean.m; sourceTree = "<group>"; };
+		D1A401F32046D5BD00370AD2 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		D1A401F52046D73C00370AD2 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		D1A401F62046D73C00370AD2 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		D1A8818F20439932003BE0FB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D1A8819120439951003BE0FB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D1A8819320439960003BE0FB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D1A881952043996F003BE0FB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		D1E07ED82043188800296C3F /* dbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbManager.h; sourceTree = "<group>"; };
+		D1E07ED92043188800296C3F /* dbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19842212046DAE100A04C53 /* MapKit.framework in Frameworks */,
+				D1938A8F2042D760001FF89E /* libsqlite3.dylib in Frameworks */,
 				D1938A5C2042D72E001FF89E /* CoreGraphics.framework in Frameworks */,
 				D1938A5E2042D72E001FF89E /* UIKit.framework in Frameworks */,
 				D1938A5A2042D72E001FF89E /* Foundation.framework in Frameworks */,
@@ -82,8 +117,27 @@
 		D1938A4D2042D72E001FF89E = {
 			isa = PBXGroup;
 			children = (
+				D19723CF2046F7EE009A52A6 /* MyAnnotation.h */,
+				D19723D02046F7EE009A52A6 /* MyAnnotation.m */,
+				D1A401F52046D73C00370AD2 /* MapController.h */,
+				D1A401F62046D73C00370AD2 /* MapController.m */,
+				D1A401F32046D5BD00370AD2 /* 5.jpg */,
+				D1953C902045919600E7ADFD /* SetImag.h */,
+				D1953C8D2045808500E7ADFD /* UserTable.h */,
+				D1953C8E2045808500E7ADFD /* UserTable.m */,
+				D1993B942044235E00DFCEAF /* UserBean.h */,
+				D1993B952044235E00DFCEAF /* UserBean.m */,
+				D1A881952043996F003BE0FB /* 6.jpg */,
+				D1A8819320439960003BE0FB /* 4.jpg */,
+				D1A8819120439951003BE0FB /* 3.jpg */,
+				D1A8818F20439932003BE0FB /* 1.jpg */,
+				D1E07ED82043188800296C3F /* dbManager.h */,
+				D1E07ED92043188800296C3F /* dbManager.m */,
+				D1938A9A2042E68E001FF89E /* tableViewController.h */,
+				D1938A9B2042E68E001FF89E /* tableViewController.m */,
+				D1938A902042DE7C001FF89E /* secondViewController.h */,
+				D1938A912042DE7C001FF89E /* secondViewController.m */,
 				D1938A5F2042D72E001FF89E /* SQLITE */,
-				D1938A7E2042D72F001FF89E /* SQLITETests */,
 				D1938A582042D72E001FF89E /* Frameworks */,
 				D1938A572042D72E001FF89E /* Products */,
 			);
@@ -101,6 +155,8 @@
 		D1938A582042D72E001FF89E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D19842202046DAE100A04C53 /* MapKit.framework */,
+				D1938A8E2042D760001FF89E /* libsqlite3.dylib */,
 				D1938A592042D72E001FF89E /* Foundation.framework */,
 				D1938A5B2042D72E001FF89E /* CoreGraphics.framework */,
 				D1938A5D2042D72E001FF89E /* UIKit.framework */,
@@ -115,6 +171,7 @@
 				D1938A682042D72E001FF89E /* JETSAppDelegate.h */,
 				D1938A692042D72E001FF89E /* JETSAppDelegate.m */,
 				D1938A6B2042D72E001FF89E /* Main.storyboard */,
+				D1938A952042E590001FF89E /* 2.png */,
 				D1938A6E2042D72E001FF89E /* JETSViewController.h */,
 				D1938A6F2042D72E001FF89E /* JETSViewController.m */,
 				D1938A712042D72F001FF89E /* Images.xcassets */,
@@ -130,24 +187,6 @@
 				D1938A622042D72E001FF89E /* InfoPlist.strings */,
 				D1938A652042D72E001FF89E /* main.m */,
 				D1938A672042D72E001FF89E /* SQLITE-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D1938A7E2042D72F001FF89E /* SQLITETests */ = {
-			isa = PBXGroup;
-			children = (
-				D1938A842042D72F001FF89E /* SQLITETests.m */,
-				D1938A7F2042D72F001FF89E /* Supporting Files */,
-			);
-			path = SQLITETests;
-			sourceTree = "<group>";
-		};
-		D1938A7F2042D72F001FF89E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1938A802042D72F001FF89E /* SQLITETests-Info.plist */,
-				D1938A812042D72F001FF89E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,8 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1938A722042D72F001FF89E /* Images.xcassets in Resources */,
+				D1A8819420439960003BE0FB /* 4.jpg in Resources */,
+				D1A881962043996F003BE0FB /* 6.jpg in Resources */,
+				D1A401F42046D5BD00370AD2 /* 5.jpg in Resources */,
 				D1938A642042D72E001FF89E /* InfoPlist.strings in Resources */,
+				D1938A962042E590001FF89E /* 2.png in Resources */,
+				D1A8819220439951003BE0FB /* 3.jpg in Resources */,
 				D1938A6D2042D72E001FF89E /* Main.storyboard in Resources */,
+				D1A8819020439932003BE0FB /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1938A832042D72F001FF89E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19723D12046F7EE009A52A6 /* MyAnnotation.m in Sources */,
+				D1938A9C2042E68E001FF89E /* tableViewController.m in Sources */,
+				D1938A922042DE7C001FF89E /* secondViewController.m in Sources */,
+				D1993B962044235E00DFCEAF /* UserBean.m in Sources */,
 				D1938A702042D72E001FF89E /* JETSViewController.m in Sources */,
 				D1938A6A2042D72E001FF89E /* JETSAppDelegate.m in Sources */,
+				D1953C8F2045808500E7ADFD /* UserTable.m in Sources */,
+				D1E07EDA2043188800296C3F /* dbManager.m in Sources */,
+				D1A401F72046D73C00370AD2 /* MapController.m in Sources */,
 				D1938A662042D72E001FF89E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1938A852042D72F001FF89E /* SQLITETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +339,6 @@
 				D1938A6C2042D72E001FF89E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D1938A812042D72F001FF89E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1938A822042D72F001FF89E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -461,6 +503,7 @@
 				D1938A8A2042D72F001FF89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1938A8B2042D72F001FF89E /* Build configuration list for PBXNativeTarget "SQLITETests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +512,7 @@
 				D1938A8D2042D72F001FF89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
